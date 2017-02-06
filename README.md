@@ -31,12 +31,19 @@ mix test
 mix excript.build
 ./counter
 
-#sun iex and load mix configurtions
+#run iex and load mix configurtions
 iex -S mix
 
+#phoenix is a framework to build web services and web applications
+#install with
 mix local.hex
 mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
+
+#create web application
 mix phoenix.new --no-brunch test
+#to run phoenix application, perare db in postgress 
 mix ecto.create
 mix ecto.midrate
+
+#run aplication
 iex -S mix phoenix.server
