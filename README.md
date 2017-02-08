@@ -47,3 +47,6 @@ mix ecto.midrate
 
 #run aplication
 iex -S mix phoenix.server
+
+#you can find libraries here
+https://hex.pm/packages/xlsxir
