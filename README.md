@@ -28,7 +28,8 @@ vim mix.exs
 mix test 
 
 #generate executable file
-mix excript.build
+mix escript.build
+#then run with
 ./counter
 
 #run iex and load mix configurtions
