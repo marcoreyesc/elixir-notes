@@ -43,7 +43,9 @@ mix archive.install https://github.com/phoenixframework/archives/raw/master/phoe
 #create web application
 mix phoenix.new --no-brunch test
 #to run phoenix application, perare db in postgress 
+
 mix ecto.create
+
 mix ecto.midrate
 
 #run aplication
