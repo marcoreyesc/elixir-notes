@@ -1,0 +1,11 @@
+los elementos que estan dentro del modulo cada uno de ellos puede ser llamado de forma indepentiente
+
+cualquier biblioteca que no encuentres en elixir la puedes encontrar en erlang
+
+macro froma de evitar codigo duplicado en programacion funcional
+
+
+funcion se componen de un nombre y una aridad, la cantidad de argumentos definidos en la funcion, la aridad esta determinada por una tupla
+
+guardas ayudan a reforzar el tipo en tu funciones
+
